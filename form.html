@@ -1,0 +1,105 @@
+<!--document type-->
+<!DOCTYPE html>
+<!--Language atribute use lang=""-->
+<html lang="en">
+<!--body & head don't need indents-->
+<head>
+    <!--character encoding should be difiend early on for correct search engine index-->
+    <meta charset="UTF-8">
+    <!--viewport in meta elaemnt is responsible for defining scaling of content-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--provides name for you webpage on a browser tool bar-->
+    <title>Account</title>
+<!--all tags should only be lowercase-->
+</head>
+<!--all atributes should be lowercase and quoted too-->
+<body style="background-color: rgb(238, 237, 237);font-family: 'Courier New', Courier, monospace;">
+    <h3 style="background-color:rgb(241, 218, 87) ;font-family:Verdana, Geneva, Tahoma, sans-serif">Account</h3>
+    <!--this form inclueds -->
+    <!--id should be clear and discribtive-->
+    <form id="login-form" method="get">
+        <fieldset form="login-form" name="log in">
+            <!--remember about proper indepts-->
+            <legend><mark style="background-color: rgb(241, 218, 87);"><b>Sign up</b></mark></legend>
+        <label for="email">EMAIL:</label><br/>
+        <input type="text" id="email" name="login-in" placeholder="Enter your email"><br/>
+        <label for="user">USER NAME:</label><br/>
+        <input type="text" id="user" name="login-in" placeholder="Enter your name"><br/>
+        <label for="PASSWORD">PASSWORD:</label><br/>
+        <input type="text" id="PASSWORD" name="login-in" placeholder="Enter your password">
+        </fieldset>
+    </form>
+    <!--spaceless equals are easier to read-->
+    <form action="form.html" id="profile picture">
+        <fieldset form="profile picture" name="picture">
+            <legend><mark style="background-color: rgb(163, 240, 140);">Profile picture</mark></legend>
+        <input type="file" id="profile picture" name="filename">
+    </fieldset>
+        </form>
+    <form id="age-form" method="get">
+    <fieldset form="age-form" name="choose age">
+        <legend><mark style="background-color: rgb(127, 255, 168);">Age</mark></legend>
+    <input type="radio" id="0-13" name="age group1" value="0-13">
+    <!--remember to close tags-->
+    <label for="0-13">0-13</label><br/>
+    <input type="radio" id="14-25" name="age group1" value="14-25">
+    <label for="14-25">14-25</label><br/>
+    <input type="radio" id="26-35" name="age group3" value="26-35">
+    <label for="26-35">26-35</label><br/>
+    <input type="radio" id="36+" name="age group4" value="36+">
+    <label for="36+">36+</label>
+    </fieldset>
+    </form>
+    <form  id="languages-form" method="get">
+    <fieldset form="languages-form" name="choose Language">
+        <legend><mark style="background-color:aquamarine;">Languages</mark></legend>
+    <input type="checkbox" id="language1" name="language1" value="English">
+    <label for="language1"> English</label><br/>
+    <input type="checkbox" id="language2" name="language2" value="Mandarin Chinese">
+    <label for="language2">Mandarin Chinese</label><br/>
+    <input type="checkbox" id="language3" name="language3" value="Hindi">
+    <label for="language3">Hindi</label>
+    </fieldset>
+    </form>  
+    <form  id="continent-form" method="get">
+    <fieldset form="continent-form" name="choose continent">
+        <legend><mark style="background-color: rgb(125, 139, 245);">Continent</mark></legend>
+    <input type="checkbox" id="continent1" name="continent1" value="Asia">
+    <label for="county1"> Asia</label><br/>
+    <input type="checkbox" id="content2" name="content2" value="Africa">
+    <label for="continent2">Africa</label><br/>
+    <input type="checkbox" id="continent3" name="continent3" value="South America">
+    <label for="continent3">South America</label><br/>
+    <input type="checkbox" id="continent4" name="continent4" value="North America">
+    <label for="continent4">North America</label><br/>
+    <input type="checkbox" id="continent5" name="continent5" value="Europe">
+    <label for="continent5">Europe</label><br/>
+    <input type="checkbox" id="continent6" name="continent6" value="Australia">
+    <label for="continent3">Australia</label>
+    </fieldset>
+    </form>
+    <form id="countries-form" method="get">
+    <fieldset form="continent-form" name="choose continent">
+    <label for="countries"><mark style="background-color: rgb(225, 115, 255);">countries:</mark></label>
+    <select name="countries" id="countries">
+    <option value="India">India</option>
+    <option value="China">China</option>
+    <option value="USA">USA</option>
+    <option value="Pakistan">Pakistan</option>
+    <option value="Indonisia">Indonisia</option>
+    <option value="Nigeria">Nigeria</option>  
+    <option value="Brazil">Brazil</option>
+    <option value="Other">Other</option>
+    </select>
+    </fieldset>
+    </form>
+    <label for="story"><mark style="background-color: rgb(193, 127, 255);">about me :</mark></label>
+    <!--remember about closing self closing tags with "/"-->
+    <br/>
+    <textarea id="story" name="story" rows="6" cols="50" placeholder="describe yourself briefly"></textarea>
+    <br/>
+    <form name="submit" id="submit-button" method="get">
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
