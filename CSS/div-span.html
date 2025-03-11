@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal-css</title>
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <style>
+        #demo{
+            background-color: #7c0e5e;
+        }
+        body {
+            background-color: #fffefb;
+        }
+        h1{
+            color: antiquewhite;
+            background-color: #e3b733;
+            font-size: 64px;
+            text-align: center;
+            font-family: Impact;
+
+        }
+        p{
+            font-size: 16px;
+            text-align: center;
+            text-decoration: wavy;
+            font-family: Gill Sans;
+        }
+
+        nav{
+            color: antiquewhite;
+            background-color: #e3b733;
+            text-align: left;
+            padding: 5px;
+            margin: 4px;
+            border-width: 2px;
+            border-color: rgb(255, 255, 255);
+            border-style: solid;
+            background-color: #ffffff;
+            color: #f5f5ff;
+        }
+
+        ul{
+            background-color: antiquewhite;
+            border: #e3b733;
+            list-style: none;
+        }
+
+        li{
+            background-color: #e3b733;
+            border: #7c0e5e;
+            font-size: 20px;
+            margin: 10px;
+            display: inline-block;
+        }
+
+        a{
+            text-decoration: none;
+            font-family: Helvetica;
+        }
+        .magenta{
+            color: #7c0e5e;
+        }
+        .cream{
+            color: antiquewhite;
+            background-color: antiquewhite;
+            font-size: 24px;
+        }  
+        .yellow{
+            color: #e3b733;
+        }
+        #styled-by-id{
+            font-family: Georgia, Cambria, serif;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body style="background-color: #fffefb;">
+    <nav>
+        <ul>
+            <li><a href="index.html">HTML</a></li>
+            <li><a href="css/style.css">STYLE-CSS</a></li>
+            <li><a href="external-css.html">EXTERNAL-css</a></li>
+            <li><a href="internal-css.html">INTERNAL-CSS</a></li>
+            <li><a href="classes-and-ids.html">CLASSES-ID</a></li>
+
+        </ul>
+    </nav>
+
+    <!--element,attributes,properties-->
+    <!--This page shows the effects of adding inline CSS to HTML tag-->
+    
+    <h1 >ICE CREAM</h1>
+    <p class="magenta">Ice cream is a frozen dessert typically made from milk or cream that has been flavoured with a sweetener, either sugar or an alternative, and a spice, such as cocoa or vanilla, or with fruit, such as strawberries or peaches. Food colouring is sometimes added in addition to stabilizers. The mixture is cooled below the freezing point of water and stirred to incorporate air spaces and prevent detectable ice crystals from forming. It can also be made by whisking a flavoured cream base and liquid nitrogen together. The result is a smooth, semi-solid foam that is solid at very low temperatures (below 2 °C or 35 °F). It becomes more malleable as its temperature increases.    </p>
+    <div style="height: 10px;">
+        <p class="cream">secret:I want some ice cream!</p>
+    </div>
+    <div style="background-color: ghostwhite;height: 300px;width: auto;">
+    <p class="yellow">Ice cream may be served in dishes, eaten with a spoon, or licked from edible wafer ice cream cones held by the hands as finger food. Ice cream may be served with other desserts—such as cake or pie—or used as an ingredient in cold dishes—like ice cream floats, sundaes, milkshakes, and ice cream cakes—or in baked items such as Baked Alaska.Italian ice cream is gelato. Frozen custard is a type of rich ice cream. Soft serve is softer and is often served at amusement parks and fast-food restaurants in the United States. Ice creams made from cow's milk alternatives, such as goat's or sheep's milk, or milk substitutes (e.g., soy, oat, cashew, coconut, almond milk, or tofu), are available for those who are lactose intolerant, allergic to dairy protein, or vegan. Banana "nice cream"[a] is a 100% fruit-based vegan alternative. Frozen yoghurt, or "froyo", is similar to ice cream but uses yoghurt and can be lower in fat. Fruity sorbets or sherbets are not ice creams but are often available in ice cream shops</p>
+    <h1 id="demo">Treat</h1>
+    <p id="styled-by-id">This paragraph will show the effect of giving an element an ID and <span style="background-color: #e3b733;"><i>styling</i></span> that ID</p>
+    </div>
+    <br/>
+    <div style="background-color: #7c0e5e; width: 10px;">
+        <img src="https://img.freepik.com/free-photo/close-up-ice-cream-with-topping_23-2148569472.jpg?t=st=1741634043~exp=1741637643~hmac=e68ba13af60fdc2f68b46911d380354f5e2d96fae04f022e53405847de219449&w=740"/>
+        <img src="https://img.freepik.com/free-photo/raspberry-apple-ice-cream-topped-with-whipped-cream-chocolate-sauce_140725-511.jpg?t=st=1741634172~exp=1741637772~hmac=635c203b96c1fabf9d65c5de700d94306a5da752e287227151a53762856504e7&w=826"/>
+        <img src="https://img.freepik.com/free-photo/still-life-cookies-ice-cream_23-2149637222.jpg?t=st=1741634376~exp=1741637976~hmac=5c785b5154d6fa3318580445010901e955fe1b3d52e5c0e4cabc9e27945bca3c&w=1380"/>
+    </div>
+</body>
+</html>

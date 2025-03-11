@@ -1,0 +1,42 @@
+/*
+comment
+*/
+
+        body {
+            background-color: #fffefb;
+        }
+        h1{
+            color: antiquewhite;
+            background-color: #e3b733;
+            font-size: 64px;
+            text-align: center;
+            font-family: Impact;
+
+        }
+        p{
+            font-size: 16px;
+            text-align: center;
+            text-decoration: wavy;
+            font-family: Gill Sans;
+        }
+
+        nav{
+            color: antiquewhite;
+            background-color: #e3b733;
+            text-align: left;
+        }
+
+        ul{
+            background-color: antiquewhite;
+            border: #e3b733;
+        }
+
+        li{
+            background-color: #e3b733;
+            border: #7c0e5e;
+        }
+
+        a{
+            text-decoration: none;
+            font-family: Helvetica;
+        }
